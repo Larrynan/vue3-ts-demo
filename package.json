@@ -9,8 +9,6 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext '.js,.ts' --fix",
-    "prepare": "husky install",
-    "commit": "git-cz",
     "changelog": "conventional-changelog -p -i CHANGELOG.md -s"
   },
   "dependencies": {
@@ -26,7 +24,6 @@
     "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.44.0",
     "eslint-plugin-vue": "^9.15.1",
-    "husky": "^8.0.0",
     "lint-staged": "^13.2.2",
     "typescript": "^5.0.2",
     "vite": "^4.4.0",
