@@ -7,7 +7,7 @@ const count = ref(0)
 </script>
 
 <template> 
-  <h1>{{ 'projectName: <%= packageName %>, userName: <%= userName %>' }}</h1>
+  <h1>{{ 'projectName: vue3-uhatcli, userName: chen' }}</h1>
   <h1>{{ msg }}</h1>
 
   <div class="card">

@@ -1,9 +1,9 @@
 {
-  "name":  "<%= packageName %>",
+  "name": "vue3-uhatcli",
   "private": false,
   "version": "0.0.1",
   "type": "module",
-  "author": "<%= userName %>",
+  "author": "chen",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
