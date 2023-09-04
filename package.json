@@ -1,9 +1,9 @@
 {
-  "name": "your-project-name",
+  "name":  "<%= packageName %>",
   "private": false,
   "version": "0.0.1",
   "type": "module",
-  "author": "your name",
+  "author": "<%= userName %>",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
