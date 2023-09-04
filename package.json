@@ -1,0 +1,51 @@
+{
+  "name": "your-project-name",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "author": "your name",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext '.js,.ts' --fix",
+    "prepare": "husky install",
+    "commit": "git-cz",
+    "changelog": "conventional-changelog -p -i CHANGELOG.md -s"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "commitizen": "^4.3.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "eslint": "^8.44.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0",
+    "vue-eslint-parser": "^9.3.1",
+    "vue-tsc": "^1.8.3"
+  },
+  "lint-staged": {
+    "src/**/*.{js,ts}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
