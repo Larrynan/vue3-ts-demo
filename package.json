@@ -1,9 +1,9 @@
 {
-  "name":  "<%= packageName %>",
+  "name": "vue3-ts-demo",
   "private": false,
   "version": "0.0.1",
   "type": "module",
-  "author": "<%= userName %>",
+  "author": "mac",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
